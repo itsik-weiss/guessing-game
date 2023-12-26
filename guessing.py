@@ -60,7 +60,7 @@ while input_str != "exit" and '_' in underscore_str:
     print(f"Your score is {score} points")
     if not '_' in underscore_str:
         break
-    input_str = input("please enter str")
+    input_str = input("please enter guess")
     if input_str in underscore_str:
         continue
 current_time = time.time() - start_time
